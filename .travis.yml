@@ -6,7 +6,7 @@ before_install:
   #- sudo add-apt-repository opt-qt56-trusty -y
   - sudo apt-get update
 install:
-  - sudo apt-get install cmake build-essential -y
+  - sudo apt-get install cmake build-essential gfortran -y
 script:
   #- source /opt/qt55/bin/qt55-env.sh
   - cmake .
