@@ -10,4 +10,5 @@ install:
 script:
   #- source /opt/qt55/bin/qt55-env.sh
   - cmake .
+  - make -j2
   # how do we separate the build step and the tests, to see both as a result?
